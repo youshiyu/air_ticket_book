@@ -1,0 +1,342 @@
+/*
+*  author: YDC
+*  core.css
+*  http://www.yidianc.com/
+*/
+
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+::-moz-placeholder {
+	color: #aaa;
+}
+
+::-webkit-input-placeholder {
+	color: #aaa;
+}
+
+:-ms-input-placeholder {
+	color: #aaa;
+}
+
+::selection {
+	background: #111;
+	color: #fff;
+	font-weight: bold
+}
+
+html {
+	color: #333;
+
+}
+
+body {
+	min-width: 1200px;
+}
+
+html,body {
+	margin: 0;
+	height: 100%;
+	background-color: #fff;
+	font-size: 14px;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'PingFangSC','helvetica neue','hiragino sans gb','arial','microsoft yahei ui','microsoft yahei','simsun','sans-serif'!important;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+hr {
+	height: 1px;
+	background: #ccc;
+	width: 100%;
+	border: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}
+
+img {
+	border: 0;
+}
+
+body {
+	background: #fff;
+	color: #666;
+}
+
+html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, blockquote, pre, button, fieldset, form, input, legend, textarea, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+audio,canvas,progress,video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+a {
+	text-decoration: none;
+	color: #08acee;
+}
+
+a:active,a:hover {
+	outline: 0;
+}
+
+button {
+	outline: 0;
+}
+
+mark {
+	color: #000;
+	background: #ff0;
+}
+
+small {
+	font-size: 80%;
+}
+
+img {
+	border: 0;
+}
+
+button,input,optgroup,select,textarea {
+	margin: 0;
+	font: inherit;
+	color: inherit;
+	outline: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table {
+	width: 100%;
+	border-radius: 4px;
+}
+
+li {
+	list-style: none;
+}
+
+i {
+	font-style: normal;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+	-webkit-transition: color .3s;
+	transition: color .3s;
+}
+
+a:hover {
+	color: #eee;
+}
+
+em {
+	font-style: normal;
+}
+
+h2, h3 {
+	font-weight: 100;
+}
+
+.ydc-flex{
+	margin-left: -10px;
+	margin-right: -10px;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.ydc-user-info-func a:not(:first-child):before{
+	content: " ";
+	border-left: 1px solid #707070;
+	height: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 8px;
+}
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+
+textarea{
+	outline:none;
+}
+
+textarea:focus{
+	background:none;
+	outline:none;
+}
+
+input:focus, textarea:focus {
+
+	outline: none;
+
+}
+
+input:focus,textarea:focus {
+
+	outline: none;
+
+	border: 1px
+	solid  #ff5f5f;
+
+}
+
+.btn{
+	position: relative;
+	text-align: center;
+	line-height: 1;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-webkit-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+	border: 1px solid transparent;
+	margin: 0;
+	background-color: #f2f2f2;
+	border-color: #d7dde4;
+	color: #324050;
+	outline: 0;
+}
+
+.btn, .btn:active, .btn:focus {
+	outline: 0;
+}
+
+.ydc-right-head-info dl+dl:before {
+	content: " ";
+	float: left;
+	width: 1px;
+	height: 50px;
+	margin-top: 8px;
+	border-left: 1px solid #ddd;
+}
+
+
+.clearfix::after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+}
+
+
+/* xu */
+.rdolist, .chklist {
+	display: none;
+}
+
+.rdobox, .chkbox {
+	display: inline-block;
+	padding: 10px;
+	height: 86px;
+	line-height: 16px;
+	/* background: #eee; */
+	border-radius: 3px;
+	width: 100%;
+	color: #666;
+}
+
+.check-image {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	margin-top: 46px;
+	background-image: url("/admin/images/icon/input-unchecked.png");
+	vertical-align: middle;
+	background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-left: 70px;
+}
+
+.unchecked {
+	/* background: #ECF0F1; */
+	color: #666;
+	transition-property: background;
+	transition-delay: 0s;
+	transition-duration: .1s;
+	transition-timing-function: linear;
+}
+
+
+
+.checked {
+	color: #fff;
+}
+
+.ydc-reg-form-button .btn-border{
+	background-color:#fff;
+	color:#ff6980;
+	margin-right:20px;
+}
+
+
+.foldpanel {
+	width: 100%;
+	border-bottom: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border-bottom: 1px dashed #ddd;
+
+}
+.foldpanel dt,.foldpanel dd {
+	border-top: 1px dashed #ddd;
+	margin: 0px;
+}
+.foldpanel dt {
+	cursor: pointer;
+	padding: 16px 17px 16px 40px;
+	font-size: 15px;
+	color: #333;
+	position:relative;
+}
+.foldpanel dd {
+	padding: 12px 70px;
+}
+
+.foldpanel dt:before{
+	position: absolute;
+	top: 23px;
+	left: 18px;
+	content: "";
+	width: 6px;
+	height: 6px;
+	border-radius: 6px;
+	background-color: #000;
+}

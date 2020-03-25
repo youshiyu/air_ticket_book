@@ -1,0 +1,85 @@
+html{
+	width:100%;
+	height:100%;
+}
+body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	font-family:·ÂËÎ;
+}
+
+#left {
+	background:#313541;
+	width:20%;
+	height:100%;
+	float: left;
+	position:absolute;
+	top: 0px;
+	bottom: 0px;
+}
+
+#right{
+	width:80%;
+	height:100%;
+	float:right;
+}
+
+#right_top {
+	width:100%;
+	height:15%;
+	float: right;	
+	border-bottom: 1px solid #b0cdff;
+}
+
+#right_bottom {
+	float: right;
+	width: 100%;
+	height:83%;
+	text-align:center;
+	margin:0;
+}
+
+.leftTiyle {
+	font-size: 25px;
+	padding-left: 30px;
+	color:grey;
+	float: left;
+}
+
+.thisUser {
+	float: right;
+	margin-right:30px;
+	font-size: 20px;
+	line-height: 100px;
+	color:#008080;
+	font-family:·ÂËÎ;
+}
+.logout {
+	float:right;
+	padding-left:30px;
+	font-size:20px;
+}
+.logout a{
+	text-decoration:none;
+	color:grey;
+}
+.logout a:hover{
+	color:blue;
+}
+
+.bigTitle {
+	background:#3d598a;
+	color: #fff;
+	height: 15%;
+	line-height: 100px;
+	text-align: center;
+	font-size: 24px;
+}
+
+
+
+
+
+
